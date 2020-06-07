@@ -3,24 +3,26 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:gravity="center_horizontal|right"
+    android:background="@color/blanc"
+    android:gravity="center_horizontal|end"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/choixConversation_titre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald"
         android:gravity="center_horizontal"
         android:text="@string/choixConversation"
-        android:textColor="@color/blanc"
+        android:textColor="@color/noir"
         android:textSize="12pt" />
 
     <Spinner
         android:id="@+id/choixConversation_choixConv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blanc" />
+        android:fontFamily="@font/oswald"
+        android:background="@color/colorAccent" />
 
     <Button
         android:id="@+id/choixConversation_btnOK"

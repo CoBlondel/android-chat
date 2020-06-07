@@ -7,22 +7,30 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/conversation_edtMessage"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:background="@color/blanc"
-        android:ems="10"
-        android:inputType="textMultiLine" />
+        android:layout_alignParentLeft="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/conversation_edtMessage"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:textSize="15dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/conversation_btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
         android:enabled="true"
         android:text="@string/ok" />
 
@@ -40,7 +48,9 @@
             android:id="@+id/conversation_svLayoutMessages"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:fontFamily="@font/oswald"
+            android:orientation="vertical"
+            android:ems="10">
 
         </LinearLayout>
     </ScrollView>
@@ -49,6 +59,7 @@
         android:id="@+id/conversation_titre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/conversation_btnOK"
         android:gravity="center|center_horizontal"
