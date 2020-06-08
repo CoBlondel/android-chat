@@ -8,4 +8,5 @@
         <EditTextPreference android:title="Login" android:key="login" android:defaultValue=""/>
         <EditTextPreference android:title="Passe" android:key="passe" android:defaultValue=""/>
         </PreferenceCategory>
+
 </PreferenceScreen>
