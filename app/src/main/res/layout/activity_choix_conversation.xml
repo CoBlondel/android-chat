@@ -3,7 +3,6 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blanc"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -13,11 +12,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/oswald"
         android:gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
         android:text="@string/choixConversation"
-        android:textColor="@color/noir"
-        android:textSize="12pt" />
+        android:background="@color/bleu"
+        android:textColor="@color/blanc"
+        android:textSize="15pt" />
 
     <Spinner
         android:id="@+id/choixConversation_choixConv"
