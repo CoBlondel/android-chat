@@ -25,32 +25,24 @@
                 android:layout_height="match_parent"
                 android:fontFamily="@font/oswald"
                 android:lineSpacingExtra="10sp"
-                android:shadowColor="@color/noir"
-                android:shadowDx="10"
-                android:shadowDy="15"
-                android:shadowRadius="3"
                 android:text="L4SI"
                 android:textAlignment="center"
-                android:textColor="@color/jauneTitre"
+                android:textColor="@color/noir"
                 android:textSize="30pt"
-                android:textStyle="bold"
                 android:visibility="visible" />
 
             <TextView
                 android:id="@+id/subtitle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="382dp"
                 android:fontFamily="@font/oswald"
                 android:lineSpacingExtra="10sp"
-                android:shadowColor="@color/noir"
-                android:shadowDx="10"
-                android:shadowDy="15"
-                android:shadowRadius="3"
+                android:outlineProvider="none"
                 android:text="Application Chat"
                 android:textAlignment="center"
-                android:textColor="@color/jauneTitre"
+                android:textColor="@color/noir"
                 android:textSize="15pt"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:visibility="visible" />
         </LinearLayout>
 
